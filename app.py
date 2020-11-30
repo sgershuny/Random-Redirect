@@ -6,8 +6,8 @@ app = Flask(__name__)
 # Note: http:// or https:// must be the prefix for proper redirection
 websites = [
         "https://www.bbc.co.uk/sport/football",
-        "google.com",
-        "apple.com"
+        "https://www.google.com",
+        "https://www.apple.com"
     ]
 
 @app.route('/')
